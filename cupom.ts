@@ -14,7 +14,7 @@ let dados = {
 };
 
 function dados_loja() {
-  // Implemente aqui
+
   if (dados.nome_loja == "") {
     throw new Error(`O campo nome da loja é obrigatório`);
   }
